@@ -1,0 +1,21 @@
+/* Background color and such */
+html {
+  background-color: #282c34;
+  padding: 60px;
+}
+
+@media (min-width: 768px) { /* Phones, tablets */
+  /* Center the entire page */
+  html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.jp-Notebook { /* body */
+  padding: 60px;
+  padding-right: 136px;
+  max-width: 1200px;
+}
