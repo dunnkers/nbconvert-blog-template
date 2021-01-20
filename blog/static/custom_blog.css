@@ -1,21 +1,60 @@
 /* Background color and such */
 html {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #282c34;
-  padding: 60px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen",
+    "Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
 }
 
-@media (min-width: 768px) { /* Phones, tablets */
-  /* Center the entire page */
-  html {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.jp-RenderedHTMLCommon p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    color: rgba(0,0,0,.85) !important;
+    font-weight: 500 !important; 
+}
+
+
+.jp-Notebook {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  padding-right: 5px;
+  margin: 0;
+  max-width: 1000px;
+}
+
+@media (min-width: 576px) { /* Phones */
+  .jp-Notebook {
+    padding-right: 15px;
   }
 }
 
-.jp-Notebook { /* body */
-  padding: 60px;
-  padding-right: 136px;
-  max-width: 1200px;
+@media (min-width: 768px) { /* Tablets */
+  .jp-Notebook {
+    padding-right: 25px;
+  }
+}
+
+@media (min-width: 992px) { /* (Large) Tablets, Small Desktops  */
+  .jp-Notebook {
+    padding-right: 35px;
+  }
+}
+
+@media (min-width: 1200px) { /* Desktops */
+  html {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .jp-Notebook {
+    padding-left: 50px;
+    padding-right: 136px;
+  }
 }
