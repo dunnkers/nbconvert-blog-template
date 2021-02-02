@@ -1,0 +1,1 @@
+jupyter nbconvert blog_test/test_notebook.ipynb --to html --template blog

@@ -16,6 +16,13 @@ jupyter nbconvert somenotebook.ipynb --to html --template blog
 
 Alternatively, you could make sure you are in the repo directory, i.e. that the `./blog` folder is present in the current working directory, and then execute `nbconvert`.
 
+## Testing
+Run test by running:
+
+```shell
+sh blog_test/test_notebook.sh
+```
+
 ## Configuration
 To change the webpage title:
 
