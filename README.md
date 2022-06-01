@@ -1,6 +1,16 @@
 # nbconvert blog template
 Custom template for [nbconvert](https://nbconvert.readthedocs.io/en/latest/customizing.html). Adds a background color and centers the Notebook to give it a "blogpost"-like appearance.
 
+Example [webpage](https://dunnkers.com/god-components/):
+
+![Complete website example](docs/Screenshot 2022-06-01 at 13.46.14.png)
+
+Mobile version:
+
+![Mobile website example](docs/Screenshot 2022-06-01 at 13.46.22.png)
+
+<small><a href="https://github.com/dunnkers/god-components/blob/master/statistics.ipynb">statistics.ipynb</a></small>
+
 ## Usage
 Clone the repo, `cd` inside it and then execute:
 
