@@ -9,7 +9,7 @@ Mobile version:
 
 ![Mobile website example](docs/mobile_webpage.png)
 
-<small><a href="https://github.com/dunnkers/god-components/blob/master/statistics.ipynb">statistics.ipynb</a></small>
+Converted using this tool from: [statistics.ipynb](https://github.com/dunnkers/god-components/blob/master/statistics.ipynb)
 
 ## Usage
 Clone the repo, `cd` inside it and then execute:
