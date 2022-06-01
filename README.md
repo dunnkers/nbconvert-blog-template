@@ -3,11 +3,11 @@ Custom template for [nbconvert](https://nbconvert.readthedocs.io/en/latest/custo
 
 Example [webpage](https://dunnkers.com/god-components/):
 
-![Complete website example](docs/Screenshot 2022-06-01 at 13.46.14.png)
+![Complete website example](docs/desktop_webpage.png)
 
 Mobile version:
 
-![Mobile website example](docs/Screenshot 2022-06-01 at 13.46.22.png)
+![Mobile website example](docs/mobile_webpage.png)
 
 <small><a href="https://github.com/dunnkers/god-components/blob/master/statistics.ipynb">statistics.ipynb</a></small>
 
